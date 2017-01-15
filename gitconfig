@@ -1,0 +1,17 @@
+[user]
+	name = Nick Dyer
+	email = nbdyer@gmail.com
+[credential]
+	helper = osxkeychain
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  type = cat-file -t
+  dump = cat-file -p
+	hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = current
+[core]
+	editor = nvim
